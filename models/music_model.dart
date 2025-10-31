@@ -98,18 +98,18 @@ enum MusicSource {
 
 class MusicSourceConfig {
   static const Map<MusicSource, String> sourceNames = {
-    MusicSource.source1: '酷我音乐',
-    MusicSource.source2: '网易云音乐',
-    MusicSource.source3: 'QQ音乐',
-    MusicSource.source4: '咪咕音乐',
-    MusicSource.source5: '酷狗音乐',
+    MusicSource.source1: 'xx',
+    MusicSource.source2: 'xx',
+    MusicSource.source3: 'xx',
+    MusicSource.source4: 'xx',
+    MusicSource.source5: 'xx',
   };
   static const Map<MusicSource, String> sourceCodes = {
-    MusicSource.source1: 'kw',
-    MusicSource.source2: 'wy',
-    MusicSource.source3: 'tx',
-    MusicSource.source4: 'mg',
-    MusicSource.source5: 'kg',
+    MusicSource.source1: '1',
+    MusicSource.source2: '2',
+    MusicSource.source3: '3',
+    MusicSource.source4: 'm4',
+    MusicSource.source5: '5',
   };
   static String getName(MusicSource source) {
     return sourceNames[source] ?? '音源一';
@@ -119,3 +119,4 @@ class MusicSourceConfig {
   }
   static List<MusicSource> get sources => MusicSource.values;
 }
+
